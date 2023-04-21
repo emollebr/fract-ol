@@ -13,8 +13,9 @@
 NAME=fractol
 CFLAGS = -Werror -Wall -Wextra
 MINILIBXFLAGS = -Lmlx_linux -lmlx_Linux -L/usr/lib -Imlx_linux -lXext -lX11 -lm -lz
-SRCS=src/init.c
-OBJS=src/init.o
+INCLUDES_DIR = ./mlx
+SRCS = init.c mandelbrot.c
+OBJS = $(SRCS:.c=.o)
 
 ${NAME}: ${OBJS}
 	cc -o ${NAME} $^ $(MINILIBXFLAGS)
