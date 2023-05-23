@@ -1,0 +1,11 @@
+Welcome to Esther's Escape Time Fractals Explorer! ʕ•́ᴥ•̀ʔっ♡
+Type as an argument the first letter of the fractal you want to see:
+
+1. mandelbrot
+2. julia
+3. burning ship
+
+For the Julia set, you can additionally type the complex number as two seperate arguments.
+Or you can use the mouse to click around the plane.
+Press m/j/b to change the fractal on the screen.
+¯\_( ͡❛ ͜ʖ ͡❛)_/¯
